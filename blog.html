@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- en dessous les liens initials -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sport</title>
+    <link rel="shortcut icon" href="Images\modelisen.png"/> 
+    <!--cela permet de mettre une icon au niveau de la page media-->
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a href="#" class="nav-link">
+            <!-- <img src="btstrap.jpg" width="50"> -->
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menuhamburger">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="menuhamburger">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="./acceuil.html" class="nav-link">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="./nourriture.html" class="nav-link">Nourriture</a>
+            </li>
+            <li class="nav-item">
+              <a href="./sport.html" class="nav-link">Sport</a>
+            </li>
+            <li class="nav-item">
+              <a href="./sommeil.html" class="nav-link">Sommeil</a>
+            </li>
+            <li class="nav-item">
+              <a href="./blog.html" class="nav-link">Blog</a>
+            </li>
+           
+            <li class="nav-item">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">A propos</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./equipe.html">Equipe</a>
+                <a class="dropdown-item" href="./contact.html">Contact</a>
+              </div>
+            </li>            
+           
+          </ul>
+        </div>
+    </nav>
+    <br>
+    <div align="center"><h2>Photos:cliquez pour les voir en grand</h2></div>
+    <br>
+    <br>
+    <div class="container">
+        <ul class="list-unstyled">
+            <!-- classe d-flex permet d'avoir cette affichage à l'orizontal -->
+            <li class="d-flex">
+                <a href="Images\nourriture.jpg"><img class="align-self-start mr-3" src="Images\nourriture.jpg" alt="Nourriture image" HSPACE="5"></a>
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">Premier repas de la journée</h5>
+                    Petit déjeuner à base de légumes et fruit frais.
+                </div>
+            </li>
+            <li class="d-flex my-4">
+                <a href="Images\sport.jpg"><img class="mr-3" src="Images\sport.jpg" alt="Sport image" HSPACE="5"></a>
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">Petit footing du matin</h5>
+                    7km en bord de la mer avec un petit vent d'Ouest.
+                </div>
+            </li>
+            <li class="d-flex">
+                <a href="Images\sommeil.jpg"><img class="mr-3" src="Images\sommeil.jpg" alt="Sommeil image" HSPACE="5"></a>
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">La journée qui commence</h5>
+                    Réveil à 7h15 de bon pied et en route pour une nouvelle journée bien chargée.
+                </div>
+            </li>
+            <br>
+            <li class="d-flex">
+                <a href="Images\photos.jpg"><img class="mr-3" src="Images\photos.jpg" alt="Blog image" HSPACE="5"></a>
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">Shooting photos</h5>
+                    Pause de midi en campagne pour capturer la nature avec mon appareil.
+                </div>
+            </li>
+        </ul>
+    </div>
+  </body>
+</html>
